@@ -1,3 +1,18 @@
 body {
-  padding-top: 61px;  /* Move body of page below navbar. */
+
+}
+
+.ui.container.top {
+  margin-top: 20px;
+}
+
+.ui.borderless.inverted.menu {
+  margin: 0px;
+  border-radius: 0px;
+  background-color: #6A7124;
+  color: rgba(255, 255, 255, .901961);
+}
+
+#login-buttons a, .accounts-dialog a {
+  color: rgba(255, 255, 255, .901961);
 }
