@@ -2,8 +2,61 @@ body {
 
 }
 
+.white.item {
+  color:rgba(255, 255, 255, .901961);
+}
+
+.ui.header.white{
+  color:rgba(255, 255, 255, .901961);
+}
+
+.manoa-background{
+  background: url('/images/Manoa-picture2.png') no-repeat center center fixed;
+  background-size: cover;
+  color: rgba(255, 255, 255, .901961);
+  height: 300px;
+}
+
+.green-background{
+  background-color: #6A7124;
+  color: rgba(255, 255, 255, .901961);
+  height: 350px;
+}
+
+.colorpad {
+  padding: 20px;
+}
+
+.colorpad.extra {
+  padding-top: 200px;
+}
+
+.image.box {
+  float: left;
+  padding: 5px;
+}
+
 .ui.container.top {
   margin-top: 20px;
+}
+
+.ui.green.horizontal.label {
+  background-color: #6A7124 !important;
+}
+
+.ui.pointing.label {
+  background-color: #6A7124 !important;
+  color: rgba(255, 255, 255, .901961);
+}
+
+.species.heading {
+  color: #6A7124;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.ui.icon {
+  color: #6A7124;
 }
 
 .ui.borderless.inverted.menu {

@@ -8,6 +8,41 @@ FlowRouter.route('/', {
   },
 });
 
+FlowRouter.route('/user-profile', {
+  name: 'User_Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'User_Profile_Page' });
+  },
+});
+
+FlowRouter.route('/botanodex', {
+  name: 'Botanodex_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Botanodex_Page' });
+  },
+});
+
+FlowRouter.route('/species/', {
+  name: 'Species_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Species_Page' });
+  },
+});
+
+FlowRouter.route('/plant-locations', {
+  name: 'Plant_Locations_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Plant_Locations_Page' });
+  },
+});
+
+FlowRouter.route('/plant-profile/', {
+  name: 'Plant_Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Plant_Profile_Page' });
+  },
+});
+
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
   action() {
